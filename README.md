@@ -8,6 +8,7 @@
 * Fetch/Post data by [Axios] API
 
 Project is created during CS242 Programming Studio @ U of I
+
 Special gratitude for the support from [Xiaoyan Wang]
 
 [AsyncStorage]: <https://facebook.github.io/react-native/docs/asyncstorage.html>
