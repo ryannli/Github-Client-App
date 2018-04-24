@@ -1,0 +1,7 @@
+module.exports = {
+	USERNAME: '',
+	GIT_TOKEN: '1720368e540d09f58737935ab70221c0d2ce4e3c',
+	GIT_CLIENT_ID: '02c0340b55a824812175',
+	GIT_CLIENT_SECRET: '82458369cc18b04daea67289b8338089b720812f',
+	AUTH_URL_PATH: 'https://api.github.com/authorizations',
+};

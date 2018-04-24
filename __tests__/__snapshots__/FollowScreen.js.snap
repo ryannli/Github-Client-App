@@ -1,0 +1,391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  collapsable={undefined}
+  onLayout={[Function]}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 20,
+    }
+  }
+>
+  <RCTScrollView
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={undefined}
+        refreshing={undefined}
+      />
+    }
+  >
+    <RCTRefreshControl />
+    <View>
+      <RCTScrollView
+        automaticallyAdjustContentInsets={false}
+        contentContainerStyle={undefined}
+        contentInset={
+          Object {
+            "bottom": 0,
+          }
+        }
+        enableAutoAutomaticScroll={true}
+        enableResetScrollToCoords={true}
+        extraHeight={75}
+        extraScrollHeight={0}
+        getScrollResponder={[Function]}
+        handleOnScroll={[Function]}
+        keyboardDismissMode="interactive"
+        keyboardOpeningTime={250}
+        keyboardShouldPersistTaps="handled"
+        keyboardSpace={0}
+        onScroll={[Function]}
+        resetKeyboardSpace={[Function]}
+        resetScrollToCoords={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        scrollEventThrottle={1}
+        scrollForExtraHeightOnAndroid={[Function]}
+        scrollToEnd={[Function]}
+        scrollToFocusedInput={[Function]}
+        scrollToPosition={[Function]}
+        showsVerticalScrollIndicator={true}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "flex": 1,
+            },
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+        viewIsInsideTabBar={false}
+        virtual={undefined}
+      >
+        <View>
+          <View
+            closeOnRowBeginSwipe={false}
+            closeOnRowPress={true}
+            closeOnScroll={true}
+            directionalDistanceChangeThreshold={2}
+            disableLeftSwipe={false}
+            disableRightSwipe={false}
+            leftOpenValue={0}
+            previewFirstRow={false}
+            recalculateHiddenLayout={false}
+            rightOpenValue={0}
+            style={Object {}}
+            swipeToOpenPercent={50}
+            virtual={undefined}
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              loading
+            </Text>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`renders correctly with data 1`] = `
+<View
+  collapsable={undefined}
+  onLayout={[Function]}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 20,
+    }
+  }
+>
+  <RCTScrollView
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={undefined}
+        refreshing={undefined}
+      />
+    }
+  >
+    <RCTRefreshControl />
+    <View>
+      <RCTScrollView
+        automaticallyAdjustContentInsets={false}
+        contentContainerStyle={undefined}
+        contentInset={
+          Object {
+            "bottom": 0,
+          }
+        }
+        enableAutoAutomaticScroll={true}
+        enableResetScrollToCoords={true}
+        extraHeight={75}
+        extraScrollHeight={0}
+        getScrollResponder={[Function]}
+        handleOnScroll={[Function]}
+        keyboardDismissMode="interactive"
+        keyboardOpeningTime={250}
+        keyboardShouldPersistTaps="handled"
+        keyboardSpace={0}
+        onScroll={[Function]}
+        resetKeyboardSpace={[Function]}
+        resetScrollToCoords={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        scrollEventThrottle={1}
+        scrollForExtraHeightOnAndroid={[Function]}
+        scrollToEnd={[Function]}
+        scrollToFocusedInput={[Function]}
+        scrollToPosition={[Function]}
+        showsVerticalScrollIndicator={true}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "flex": 1,
+            },
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+        viewIsInsideTabBar={false}
+        virtual={undefined}
+      >
+        <View>
+          <View
+            closeOnRowBeginSwipe={false}
+            closeOnRowPress={true}
+            closeOnScroll={true}
+            directionalDistanceChangeThreshold={2}
+            disableLeftSwipe={false}
+            disableRightSwipe={false}
+            leftOpenValue={0}
+            previewFirstRow={false}
+            recalculateHiddenLayout={false}
+            rightOpenValue={0}
+            style={Object {}}
+            swipeToOpenPercent={50}
+            virtual={undefined}
+          >
+            <View
+              accessibilityComponentType={undefined}
+              accessibilityLabel={undefined}
+              accessibilityTraits={undefined}
+              accessible={true}
+              hasTVPreferredFocus={undefined}
+              hitSlop={undefined}
+              isTVSelectable={true}
+              nativeID={undefined}
+              onLayout={undefined}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={null}
+              testID={undefined}
+              tvParallaxProperties={undefined}
+            >
+              <View
+                onPress={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderBottomWidth": 0.5,
+                    "borderColor": "#c9c9c9",
+                    "flexDirection": "row",
+                    "marginLeft": 15,
+                    "paddingBottom": 13,
+                    "paddingRight": 15,
+                    "paddingTop": 13,
+                  }
+                }
+                virtual={undefined}
+              >
+                <Image
+                  size={60}
+                  source={
+                    Object {
+                      "uri": "https://avatars0.githubusercontent.com/u/6976367?v=4",
+                    }
+                  }
+                  style={
+                    Object {
+                      "borderRadius": 28,
+                      "height": 56,
+                      "width": 56,
+                    }
+                  }
+                  virtual={undefined}
+                />
+                <View
+                  style={
+                    Object {
+                      "alignItems": null,
+                      "alignSelf": null,
+                      "flex": 1,
+                    }
+                  }
+                  virtual={undefined}
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "fontFamily": "Cochin",
+                        "fontSize": 20,
+                        "fontWeight": "bold",
+                        "paddingLeft": 5,
+                      }
+                    }
+                  >
+                    rijn
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    note={true}
+                  >
+                     
+                    
+                     
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`renders correctly with refreshing 1`] = `
+<View
+  collapsable={undefined}
+  onLayout={[Function]}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 20,
+    }
+  }
+>
+  <RCTScrollView
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={undefined}
+        refreshing={undefined}
+      />
+    }
+  >
+    <RCTRefreshControl />
+    <View>
+      <RCTScrollView
+        automaticallyAdjustContentInsets={false}
+        contentContainerStyle={undefined}
+        contentInset={
+          Object {
+            "bottom": 0,
+          }
+        }
+        enableAutoAutomaticScroll={true}
+        enableResetScrollToCoords={true}
+        extraHeight={75}
+        extraScrollHeight={0}
+        getScrollResponder={[Function]}
+        handleOnScroll={[Function]}
+        keyboardDismissMode="interactive"
+        keyboardOpeningTime={250}
+        keyboardShouldPersistTaps="handled"
+        keyboardSpace={0}
+        onScroll={[Function]}
+        resetKeyboardSpace={[Function]}
+        resetScrollToCoords={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        scrollEventThrottle={1}
+        scrollForExtraHeightOnAndroid={[Function]}
+        scrollToEnd={[Function]}
+        scrollToFocusedInput={[Function]}
+        scrollToPosition={[Function]}
+        showsVerticalScrollIndicator={true}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "flex": 1,
+            },
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+        viewIsInsideTabBar={false}
+        virtual={undefined}
+      >
+        <View>
+          <View
+            closeOnRowBeginSwipe={false}
+            closeOnRowPress={true}
+            closeOnScroll={true}
+            directionalDistanceChangeThreshold={2}
+            disableLeftSwipe={false}
+            disableRightSwipe={false}
+            leftOpenValue={0}
+            previewFirstRow={false}
+            recalculateHiddenLayout={false}
+            rightOpenValue={0}
+            style={Object {}}
+            swipeToOpenPercent={50}
+            virtual={undefined}
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              loading
+            </Text>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </RCTScrollView>
+</View>
+`;
